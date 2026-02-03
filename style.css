@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffe6f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #ff4d88;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #dc497a;
+  margin-bottom: 20px;
+}
+
+.main-gif {
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 120px; /* controls distance between YES and NO */
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+#yesBtn {
+  background-color: #ff4d88;
+  color: white;
+}
+
+#noBtn {
+  background-color: #cccccc;
+}
+
+#goBackBtn {
+  background-color: #ffb3c6;
+  color: white;
+  margin-top: 20px;
+}
